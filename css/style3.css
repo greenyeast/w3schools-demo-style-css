@@ -1,0 +1,126 @@
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/************** Reset CSS Style ******************/
+/* Font
+    font-family: "verdana-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    font-family: "verdana-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "verdana-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+*/
+
+body{
+    font-family: "verdana-pro", sans-serif;
+    line-height: 26px;
+    margin: 20px;
+    padding-top: 5px;
+}
+
+.container{
+    xmin-width: 900px;
+}
+
+.wrapper{
+    position: relative;
+    overflow: auto;
+}
+
+#top>h1, #main>h1, #main>h2, #sidebar>h3{
+    font-family: "verdana-pro";
+    font-weight: 700;
+    color: #4DAF4F;
+}
+
+#top p, #menubar, #main p, #sidebar p, #bottom{
+    font-weight: 400;
+    font-size: 20.8px;
+}
+
+#sidebar{
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    padding-left: 10px;
+}
+
+#menulist{
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.menuitem{
+    width: 165px;
+    float: left;
+    background-color: #555555;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menuitem:nth-child(3){
+    background-color: #04AA6D;
+}
+
+.menuitem:hover{
+    background-color: #000;
+}
+
+#bottom{
+    text-align: center;
+    padding: 10px;
+    font-size: 14.8px;
+    line-height: 18px;
+}
+
+a{
+    color: #000000;
+}
+
+a:hover{
+    color: #84c754;
+}
+
+
+
+

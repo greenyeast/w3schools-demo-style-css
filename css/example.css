@@ -1,0 +1,49 @@
+/* Override Bootstrap's default jumbotron styles */
+.jumbotron {
+    background-color: #f8f9fa; /* Change background color */
+    padding: 40px 0; /* Add padding to the top and bottom */
+}
+
+.jumbotron h1 {
+    font-size: 3rem; /* Increase font size for the heading */
+}
+
+.jumbotron p.lead {
+    font-size: 1.25rem; /* Increase font size for the lead paragraph */
+}
+
+.jumbotron a.btn-primary {
+    background-color: #007bff; /* Change button background color */
+    border-color: #007bff; /* Change button border color */
+}
+
+/* Optional: Style the button on hover */
+.jumbotron a.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Additional custom styles can be added here */
+
+
+section {
+    background-color: #fff; /* Set section background color */
+    padding: 40px; /* Add padding to sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to sections */
+}
+
+section h2 {
+    font-size: 2rem; /* Set section heading font size */
+}
+
+section p {
+    font-size: 1.1rem; /* Set section paragraph font size */
+}
+
+/* Optional: Style section images */
+section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
+    <title>form.html</title>
+</head>
+<body>
+<div class="main">
+    <div class="container-a">
+        <h2 class="welcome-title">Nice To Meet You</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k9bUTfFF3_4?si=tMh7NZktRCyGnVqq?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+    </div>
+    <div class="container-b">
+        <form action="" class="form">
+            <h2 class="form-title">Create Account</h2>
+            <div class="wrapper-profile">
+                <span><label for="avatar">Profile Picture</label></span>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+            </div>
+            <input type="text" placeholder="Name" class="form-input">
+            <input type="text" placeholder="Email" class="form-input">
+            <input type="password" placeholder="Password" class="form-input">
+
+            <div class="wrapper-gender">
+                <span>Gender</span>
+                <input type="radio" name="gender" class="form-radio" value="female" checked>Female
+                <input type="radio" name="gender" class="form-radio" value="male">Male
+                <input type="radio" name="gender" class="form-radio" value="noanswer">Prefer not to answer
+            </div>
+
+            <div class="wrapper-birthday">
+                <span>Birthday</span>
+                <input type="date" name="birthday" class="form-date">
+
+            </div>
+
+            <div class="wrapper-hobby">
+                <span>Hobby</span>
+                <div class="wrapper-checkbox">
+                    <input type="checkbox" name="hobby" value="hiking" class="form-checkbox"><label for="hiking">Hiking</label>
+                    <input type="checkbox" name="hobby" value="fishing" class="form-checkbox"><label for="fishing">Fishing</label>
+                    <input type="checkbox" name="hobby" value="coding" class="form-checkbox"><label for="coding">Coding</label>
+                    <input type="checkbox" name="hobby" value="dancing" class="form-checkbox"><label for="dancing">Dancing</label>
+                    <input type="checkbox" name="hobby" value="swimming" class="form-checkbox"><label for="swimming">Swimming</label>
+                </div>
+            </div>
+
+            <div class="wrapper-flavor">
+                <span><label for="flavor-choice">Favorite Flavor</label></span>
+                <input list="flavor-types" id="flavor-choice" name="ice-cream-choice" />
+                <datalist id="flavor-types">
+                    <option value="sour"></option>
+                    <option value="salty"></option>
+                    <option value="spice"></option>
+                    <option value="bitter"></option>
+                    <option value="sweet"></option>
+                </datalist>
+            </div>
+
+            <div class="wrapper-main-language">
+                <span>Main Language</span>
+                <select name="language" class="form-select" id="form-select">
+                    <optgroup label="OOP">
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                    </optgroup>
+                    <optgroup label="POP">
+                        <option value="c">C</option>
+                        <option value="fortran">Fortran</option>
+                        <option value="pascal">Pascal</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="wrapper-dream">
+                <span>What is your dream in your whole life?</span>
+                <textarea name="textarea" rows="5" placeholder="Describe anything.."></textarea>
+                <div class="form-button-container">
+                    <button class="form-button">SIGN UP</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
